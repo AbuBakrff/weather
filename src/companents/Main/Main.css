@@ -1,0 +1,112 @@
+.main {
+    padding: 0 60px;
+    max-width: 542px;
+    height: 855px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(15px);
+    z-index: 4;
+    margin-top: 0px;
+}
+
+p {
+    position: absolute;
+    top: -3px;
+    right: 24px;
+    z-index: 2;
+    cursor: pointer;    
+}
+
+.main__head {
+    display: flex;
+    gap: 30px;
+}
+.main__gps {
+    width: 330px;
+    height: 49px;
+    background: none;
+    border: none;
+    border-bottom: rgba(255, 255, 255, 0.5) 2px solid;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+    color: rgba(0, 0, 0, 0.5);
+    margin:30px 0 40px 0;
+    cursor: pointer;
+}
+.main__search {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 80px;
+    text-align: center;
+    padding-top: 20px;
+    height: 70px;
+    background: #addfff;
+    border:none;
+    cursor: pointer;
+}
+
+.main__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 422px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.5);
+    border-radius: 1px;
+    padding-bottom: 20px;
+}
+
+.main__text {
+    margin-bottom: 34px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.main__subtext {
+    font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.main__title {
+    margin: 58px 0;
+    font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+.main__footer {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+border-bottom:  rgba(255, 255, 255, 0.5) solid 3px ;
+width: 422px;
+height: 260px;
+border-radius: 1px;
+}
+.main__could {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__hmd {
+    display: flex;
+    justify-content: space-between;
+}
+.main__wind {
+    display: flex;
+    justify-content: space-between;
+}
+.main__rain {
+    display: flex;
+    justify-content: space-between;
+}
